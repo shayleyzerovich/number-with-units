@@ -7,15 +7,15 @@ namespace ariel{
         class NumberWithUnits{
         
         private:
-             double number;
-             string type;
+             double size;
+             string unit;
         
         
         public:
-            NumberWithUnits(double num,string unit)
+            NumberWithUnits(double s,string u)
             {
-                number=num;
-                type=unit;
+                size=s;
+                unit=u;
             }
             ~NumberWithUnits(){};
 
